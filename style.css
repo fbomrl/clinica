@@ -1,0 +1,46 @@
+html{
+ /* background-color: #F5F5F5;
+ z-index: 100000; */
+}
+header {
+    background-color: #2196F3;
+    height: 48px;
+    padding: 16px 0 0 16px;
+
+}
+
+header i {
+    color: white;
+}
+
+/* .sidebar{
+    background-color: blue;
+    height: 30px;
+
+} */
+
+.content{
+    margin: 30px 0 0 100px;
+}
+
+.btn-group .button {
+    background-color: white; 
+    border: 1px solid silver;
+    color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  .btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  .btn-group .button:hover {
+    background-color: #2196F3;
+    color: white;
+  }
